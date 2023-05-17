@@ -17,14 +17,15 @@ import React, { useState, useEffect } from 'react';
         <thead>
           <tr>
             <th>Name</th>
-            <th>URL</th>
+            <th>Image</th>
           </tr>
         </thead>
         <tbody>
           {pokemonData.map((pokemon) => (
             <tr key={pokemon.name}>
               <td>{pokemon.name}</td>
-              <td>{pokemon.url}</td>
+              <td></td>
+            
             </tr>
           ))}
         </tbody>
